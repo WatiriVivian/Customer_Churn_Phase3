@@ -1,7 +1,7 @@
 # BUSINESS UNDERSTANDING
 This project aims to develop a predictive model that can help SyriaTel identify all the customers that they are at risk of losing. By analyzing customer data, including demographics, usage patterns, complaints, and billing records, we hope to uncover patterns and factors that contribute to churn.
 
-#### * objectives
+#### * Objectives
    The following were the main objectives we sort about fulfilling to allow us to answer our business question
         1. To check how the frequency of customer service calls affects the churning rate
         2. To check how the total cost affects the customers
