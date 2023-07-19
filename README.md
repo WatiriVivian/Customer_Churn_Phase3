@@ -1,4 +1,4 @@
-# The Question we were aiming to answer
+# BUSINESS UNDERSTANDING
 This project aims to develop a predictive model that can help SyriaTel identify all the customers that they are at risk of losing. By analyzing customer data, including demographics, usage patterns, complaints, and billing records, we hope to uncover patterns and factors that contribute to churn.
 
 #### * objectives
