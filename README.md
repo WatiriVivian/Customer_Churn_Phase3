@@ -56,8 +56,13 @@ We then choose the **Random Forest model** for the following reasons:
   
   ![download](https://github.com/WatiriVivian/Customer_Churn_Phase3/assets/118829983/2d956eac-a14b-47e3-8412-59aea6a6474c)
 
-With this graph, we can identify the features that have the most effect on our model 
-
+With this graph, we can identify the features that have the most effect on our model. 
+   **These features are:**
+   * Total cost ( This is the sum of all the charges) 
+   * International plan_no
+   * Total day charge
+   * Customer service calls
+   * Total intl charge
 
 ## Recommendation
 To reduce customer churn at Syria Tel, implement the following measures:
