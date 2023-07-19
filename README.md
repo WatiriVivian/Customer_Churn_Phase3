@@ -42,18 +42,32 @@ We used four different models:
 * Decision trees
 * Random Forest
 * KNearest Neighbour(KNN)
+  
+## Conclusion
+We then choose the **Random Forest model** for the following reasons:
+* High recall score of 0.83: The model accurately identifies 83% of customers likely to
+  churn, aligning with our objective of effective churn mitigation.
+* Accuracy score of 0.94: The model correctly predicts churn cases with 94% accuracy
+  providing reliable insights for decision-making.
+* Balanced F1 score of 0.81: The model strikes a good balance between precision and recall,
+ accurately identifying churn cases while minimizing false positives and false negatives
+* (AUC score: 0.897290): The model effectively distinguishes between customers likely to churn
+  and those who are not, showcasing its ability to make informed predictions.
+  
+  ![download](https://github.com/WatiriVivian/Customer_Churn_Phase3/assets/118829983/2d956eac-a14b-47e3-8412-59aea6a6474c)
 
-We then choose the model with the best Recall and AUC this was the **Random Forest model**.
+With this graph, we can identify the features that have the most effect on our model 
+
 
 ## Recommendation
-To effectively reduce the churn rate of customers from Syria Tel, we recommend implementing the following measures:
+To reduce customer churn at Syria Tel, implement the following measures:
 
-1. Lower Total Cost of Calls: One significant factor influencing churn is the total cost of calls. By reducing the overall cost of calls for customers, especially during peak hours, you can provide them with cost-effective solutions. This strategy aims to make the service more affordable and attractive, potentially reducing the incentive for customers to switch to competitors.
+1. Lower call costs: Reduce the overall cost of calls, especially during peak hours, to make the service more affordable and attractive.
 
-2. Address Customer Service Issues: Customers who frequently contact customer service may have unresolved issues or concerns. It is crucial to prioritize addressing their problems promptly and efficiently. By providing excellent customer service and resolving issues effectively, you can improve customer satisfaction and loyalty, thereby reducing the likelihood of churn. Implementing customer feedback mechanisms and optimizing customer service processes can aid in this endeavor.
+2. Improve customer service: Address customer issues promptly and provide excellent customer support to enhance satisfaction and loyalty.
 
-3. Encourage International Plan Adoption: Actively promoting and incentivizing customers to join the international plan can help reduce churn. By offering attractive features, such as discounted international calling rates or inclusive international minutes, you can encourage more customers to opt for the international plan. This strategy not only increases customer retention but also enhances revenue from international calling services.
+3. Promote international plan adoption: Incentivize customers to join the international plan with discounted rates or inclusive minutes.
 
-4. Lower International Call Costs: High call costs for international calls can significantly contribute to customer churn. Lowering the rates for international calls or introducing cost-effective international calling packages can make Syria Tel a more appealing choice for customers who frequently engage in international communication. This measure aims to retain customers by providing competitive pricing and reducing the incentive to switch to other service providers.
+4. Reduce international call costs: Lower rates for international calls or introduce cost-effective calling packages to retain customers.
 
-It is important to monitor the effectiveness of these measures through ongoing analysis of churn rates, customer feedback, and market trends. Regularly evaluating and adapting these strategies based on customer needs and preferences will help optimize retention efforts and reduce churn effectively. Additionally, providing personalized offers, loyalty programs, and targeted marketing campaigns can further contribute to improving customer satisfaction and loyalty.
+Monitor the effectiveness of these measures through ongoing analysis, and adapt based on customer feedback and market trends. Consider personalized offers, loyalty programs, and targeted marketing campaigns to further improve customer satisfaction and loyalty.
